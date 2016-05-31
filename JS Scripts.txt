@@ -1,0 +1,70 @@
+var age = prompt("How old areyou?");
+  var name = prompt("What's you name?");
+  var food = prompt("Favorite food?");
+
+  var combiningSentence = function(x,y,z) {
+    alert(x + y + z);
+  }
+ combiningSentence (age, name, food);
+
+
+
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+
+var number1 = prompt("Enter a number:");
+var number2 = prompt("Enter another number:");
+
+alert(add(number1, number2);
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+
+var number1 = prompt("Enter a number:");
+var number2 = prompt("Enter another number:");
+
+alert(add(number1, number2);
+
+
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
+
+alert(add(number1, number2);
+
+Select a tag and bind an event handler to it:
+$("h1").click(function() {
+  alert("This is a header.");
+});
+The part function() { alert("This is a header."); } is considered the callback because it is being passed as an argument into the method .click().
+Wrap all your jQuery code in callback passed to $(document).ready() so that it is run after the page loads:
+$(document).ready(function() {
+  $("h1").click(function() {
+    alert("This is a header.");
+  });
+});
+To check if an event handler is attached properly, right-click the element you want to check, Inspect, and click Event Listeners.
+
+	•	Use classes (e.g. .my-class) for things that are on the page multiple times. Use IDs (e.g. #my-id) for something that is unique on the page.
+	•	
+	•	Show, hide, and toggle elements:
+	•	$(".my-class").show();
+	•	$(".my-class").hide();
+	•	$(".my-class").toggle();
+	•	Make a class look like a link:
+	•	.clickable {
+	•	  cursor: pointer;
+	•	  color: #0088cc;
+	•	}
+	•	
+	•	.clickable:hover {
+	•	  text-decoration: underline;
+	•	}
+Add a CSS class to an element:
+$("body").addClass("my-class");
+Remove a CSS class from an element:
+$("body").removeClass();
